@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  background: #facc15;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+section {
+  padding: 60px 80px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 60px 80px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.hero-buttons button {
+  margin-right: 10px;
+}
+
+.primary {
+  background: #ffc107;
+  border: none;
+  padding: 10px 20px;
+}
+
+.secondary {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f8f8;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #ffd65a;
+  padding: 20px;
+}
+
+.cta {
+  background: #ffc107;
+  text-align: center;
+}
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+}
+
+
+
+
